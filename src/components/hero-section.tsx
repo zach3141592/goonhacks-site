@@ -21,17 +21,17 @@ export const HeroSection = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16">
-            <Card className="p-6 bg-card border-border shadow-card">
+            <Card className="p-6 bg-secondary border-0">
               <h3 className="text-2xl font-semibold mb-3 text-primary">48 Hours</h3>
               <p className="text-muted-foreground">Non-stop coding and innovation</p>
             </Card>
             
-            <Card className="p-6 bg-card border-border shadow-card">
+            <Card className="p-6 bg-secondary border-0">
               <h3 className="text-2xl font-semibold mb-3 text-primary">$50K Prizes</h3>
               <p className="text-muted-foreground">Win big with groundbreaking ideas</p>
             </Card>
             
-            <Card className="p-6 bg-card border-border shadow-card">
+            <Card className="p-6 bg-secondary border-0">
               <h3 className="text-2xl font-semibold mb-3 text-primary">500+ Hackers</h3>
               <p className="text-muted-foreground">Join a community of innovators</p>
             </Card>

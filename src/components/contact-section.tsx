@@ -15,22 +15,18 @@ export const ContactSection = () => {
             </p>
           </div>
           
-          <Card className="p-12 bg-card border-border shadow-card">
+          <Card className="p-12 bg-secondary border-0">
             <div className="space-y-8">
               <h3 className="text-3xl font-bold text-foreground">Get Started Today</h3>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
                 <div className="space-y-2">
                   <div className="text-2xl font-bold text-primary">Step 1</div>
-                  <p className="text-muted-foreground">Register your team</p>
+                  <p className="text-muted-foreground">Apply</p>
                 </div>
                 <div className="space-y-2">
                   <div className="text-2xl font-bold text-primary">Step 2</div>
-                  <p className="text-muted-foreground">Prepare your ideas</p>
-                </div>
-                <div className="space-y-2">
-                  <div className="text-2xl font-bold text-primary">Step 3</div>
-                  <p className="text-muted-foreground">Code & compete</p>
+                  <p className="text-muted-foreground">Attend</p>
                 </div>
               </div>
               
