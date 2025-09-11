@@ -20,6 +20,7 @@ export const ScheduleSection = () => {
               <Button 
                 variant="outline" 
                 onClick={handleViewSchedule}
+                className="glow-border hover:glow-text transition-all duration-300 hover:scale-105"
               >
                 View Schedule
               </Button>

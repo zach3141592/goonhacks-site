@@ -9,12 +9,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg transition-all",
-        primary: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg transition-all",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-md hover:shadow-lg transition-all",
-        outline: "border border-primary bg-transparent text-primary hover:bg-primary/5 shadow-md hover:shadow-lg transition-all",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-md hover:shadow-lg transition-all",
-        ghost: "hover:bg-accent hover:text-accent-foreground shadow-md hover:shadow-lg transition-all",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 shadow-primary/30 hover:shadow-primary/40",
+        primary: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 shadow-primary/30 hover:shadow-primary/40",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-lg hover:shadow-xl transition-all duration-300 shadow-destructive/30 hover:shadow-destructive/40",
+        outline: "border border-primary bg-transparent text-primary hover:bg-primary/5 shadow-lg hover:shadow-xl transition-all duration-300 shadow-primary/20 hover:shadow-primary/30",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-lg hover:shadow-xl transition-all duration-300 shadow-secondary/30 hover:shadow-secondary/40",
+        ghost: "hover:bg-accent hover:text-accent-foreground shadow-lg hover:shadow-xl transition-all duration-300 shadow-accent/20 hover:shadow-accent/30",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {

@@ -35,7 +35,7 @@ export const ContactSection = () => {
               </div>
               
               <div className="flex justify-center">
-                <Button variant="primary" size="lg" onClick={handleRegister}>
+                <Button variant="primary" size="lg" onClick={handleRegister} className="glow-border hover:glow-text transition-all duration-300 hover:scale-105">
                   Register
                 </Button>
               </div>
