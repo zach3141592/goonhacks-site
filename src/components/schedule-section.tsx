@@ -1,6 +1,10 @@
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export const ScheduleSection = () => {
+  const [showSchedule, setShowSchedule] = useState(false);
+
   const schedule = [
     {
       day: "Day 1",
@@ -28,7 +32,7 @@ export const ScheduleSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-secondary">
+    <section className="py-24 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
@@ -38,34 +42,44 @@ export const ScheduleSection = () => {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               48 hours of non-stop innovation, learning, and networking
             </p>
+            <div className="pt-6">
+              <Button 
+                variant="outline" 
+                onClick={() => setShowSchedule(!showSchedule)}
+              >
+                {showSchedule ? "Hide Schedule" : "View Schedule"}
+              </Button>
+            </div>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {schedule.map((day) => (
-              <Card key={day.day} className="p-8 bg-card/80 backdrop-blur-sm border-border shadow-card">
-                <div className="space-y-6">
-                  <div className="text-center space-y-2">
-                    <h3 className="text-2xl font-bold text-accent">{day.day}</h3>
-                    <p className="text-muted-foreground">{day.date}</p>
-                  </div>
-                  
-                  <div className="space-y-4">
-                    {day.events.map((event, index) => (
-                      <div key={index} className="flex gap-4 items-start">
-                        <div className="w-20 flex-shrink-0">
-                          <span className="text-sm font-medium text-accent">{event.time}</span>
+          {showSchedule && (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-fade-in">
+              {schedule.map((day) => (
+                <Card key={day.day} className="p-8 bg-card border-border shadow-card">
+                  <div className="space-y-6">
+                    <div className="text-center space-y-2">
+                      <h3 className="text-2xl font-bold text-primary">{day.day}</h3>
+                      <p className="text-muted-foreground">{day.date}</p>
+                    </div>
+                    
+                    <div className="space-y-4">
+                      {day.events.map((event, index) => (
+                        <div key={index} className="flex gap-4 items-start">
+                          <div className="w-20 flex-shrink-0">
+                            <span className="text-sm font-medium text-primary">{event.time}</span>
+                          </div>
+                          <div className="flex-1 space-y-1">
+                            <h4 className="font-semibold text-foreground">{event.event}</h4>
+                            <p className="text-sm text-muted-foreground">{event.description}</p>
+                          </div>
                         </div>
-                        <div className="flex-1 space-y-1">
-                          <h4 className="font-semibold text-foreground">{event.event}</h4>
-                          <p className="text-sm text-muted-foreground">{event.description}</p>
-                        </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </Card>
-            ))}
-          </div>
+                </Card>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>
