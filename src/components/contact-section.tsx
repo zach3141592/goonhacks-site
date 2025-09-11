@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export const ContactSection = () => {
+  const handleRegister = () => {
+    window.open("https://tally.so/r/wbp0p2", "_blank");
+  };
+
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
@@ -31,7 +35,7 @@ export const ContactSection = () => {
               </div>
               
               <div className="flex justify-center">
-                <Button variant="primary" size="lg">
+                <Button variant="primary" size="lg" onClick={handleRegister}>
                   Register
                 </Button>
               </div>

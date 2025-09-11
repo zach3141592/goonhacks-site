@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export const HeroSection = () => {
+  const handleRegister = () => {
+    window.open("https://tally.so/r/wbp0p2", "_blank");
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-secondary">
       <div className="container mx-auto px-6 text-center">
@@ -15,7 +19,7 @@ export const HeroSection = () => {
           </p>
           
           <div className="pt-8">
-            <Button variant="primary" size="lg">
+            <Button variant="primary" size="lg" onClick={handleRegister}>
               Register Now
             </Button>
           </div>
