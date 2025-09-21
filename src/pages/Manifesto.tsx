@@ -2,7 +2,7 @@ export const Manifesto = () => {
   return (
     <div className="min-h-screen bg-background checkered-bg">
       {/* Banner */}
-      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 py-4 px-6 flex items-center justify-between w-full relative overflow-hidden">
+      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 py-6 px-6 flex items-center justify-between w-full relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="h-full w-full bg-gradient-to-br from-transparent via-blue-600/30 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-blue-700/20 via-transparent to-blue-700/20"></div>
@@ -26,17 +26,11 @@ export const Manifesto = () => {
           <nav className="flex justify-center space-x-8 text-sm font-medium mb-8">
             <a href="/" className="text-foreground hover:text-primary transition-colors">HOME</a>
             <a href="/about" className="text-foreground hover:text-primary transition-colors">ABOUT</a>
+            <a href="/manifesto" className="text-foreground hover:text-primary transition-colors">MANIFESTO</a>
             <a href="/sponsors" className="text-foreground hover:text-primary transition-colors">SPONSORS</a>
             <a href="/contact" className="text-foreground hover:text-primary transition-colors">CONTACT</a>
           </nav>
           
-          {/* Back link */}
-          <div className="text-left">
-            <a href="/" className="text-blue-900 hover:text-blue-800 transition-colors">
-              ← Back
-            </a>
-          </div>
-
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font">
             MANIFESTO
