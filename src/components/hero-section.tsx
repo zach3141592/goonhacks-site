@@ -9,6 +9,32 @@ export const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-secondary to-background relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/20"></div>
+      
+      {/* Crooked corner sections */}
+      {/* Left corner - animated text */}
+      <div className="absolute top-8 left-8 transform -rotate-3 z-20">
+        <div className="bg-secondary/90 border border-accent/30 rounded-lg p-4 shadow-lg backdrop-blur-sm">
+          <p className="text-sm font-bold text-accent typewriter-animation">
+            BUILD WITHOUT PERMISSION
+          </p>
+        </div>
+      </div>
+      
+      {/* Right corner - click me section */}
+      <div className="absolute top-8 right-8 transform rotate-3 bg-secondary/90 border border-primary/30 rounded-lg p-4 shadow-lg backdrop-blur-sm z-20">
+        <div className="text-center space-y-3">
+          <p className="text-sm font-medium text-muted-foreground">
+            Before you laugh, read this
+          </p>
+          <Button 
+            variant="outline" 
+            size="sm"
+            className="text-xs px-3 py-1 hover:bg-primary/10"
+          >
+            click me
+          </Button>
+        </div>
+      </div>
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold text-primary glow-text">
