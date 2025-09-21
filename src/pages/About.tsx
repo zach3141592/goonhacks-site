@@ -95,12 +95,12 @@ export const About = () => {
                 <div>
                   <h4 className="font-bold text-foreground text-lg mb-2">When</h4>
                   <p className="text-foreground">November 29-30, 2025</p>
-                  <p className="text-foreground text-sm">48 hours of chaos</p>
+                  <p className="text-foreground text-sm">24 hours of building</p>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-lg mb-2">Where</h4>
                   <p className="text-foreground">Builder's Club</p>
-                  <p className="text-foreground text-sm">165 King St W, Toronto</p>
+                  <p className="text-foreground text-sm">165 King St W, Waterloo</p>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-lg mb-2">What</h4>
@@ -120,7 +120,7 @@ export const About = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
               >
-                JOIN THE CHAOS
+                JOIN THE MISSION
               </a>
             </div>
           </div>

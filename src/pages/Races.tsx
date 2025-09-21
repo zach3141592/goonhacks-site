@@ -37,7 +37,7 @@ export const Races = () => {
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font leading-tight">
               <div className="opacity-line">THE HACKATHON.</div>
-              <div className="opacity-line">SOLVING.</div>
+              <div className="opacity-line">THAT'S SOLVING.</div>
               <div className="opacity-line">THE WORLD'S WEIRDEST PROBLEMS.</div>
             </h1>
           </div>
@@ -57,7 +57,7 @@ export const Races = () => {
               rel="noopener noreferrer"
               className="inline-block bg-blue-900 text-white px-6 py-2 font-bold text-base hover:bg-blue-800 transition-colors"
             >
-              APPLY TODAY
+              JOIN OUR WAITLIST
             </a>
           </div>
 

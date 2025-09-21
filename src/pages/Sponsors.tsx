@@ -38,66 +38,78 @@ export const Sponsors = () => {
 
           {/* Content */}
           <div className="space-y-8">
-            <p className="text-lg text-foreground">
-              Partner with us to support the world's weirdest hackathon.
-            </p>
+            {/* Why Sponsor Section */}
+            <div className="bg-secondary p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Why Sponsor GoonHacks?</h3>
+              <div className="space-y-6 text-left">
+                <p className="text-lg text-foreground">
+                  GoonHacks isn't just another hackathon—it's where unconventional thinking meets real innovation. 
+                  When you sponsor us, you're not just supporting an event, you're investing in the future of creative problem-solving.
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <h4 className="text-xl font-bold text-foreground mb-3">Reach Innovators</h4>
+                    <p className="text-foreground">
+                      Connect with builders who think differently and solve problems others won't touch.
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-xl font-bold text-foreground mb-3">Brand Association</h4>
+                    <p className="text-foreground">
+                      Align your brand with creativity, innovation, and the courage to build without permission.
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-xl font-bold text-foreground mb-3">Talent Pipeline</h4>
+                    <p className="text-foreground">
+                      Discover and recruit the next generation of unconventional problem solvers.
+                    </p>
+                  </div>
+                </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Title Sponsor</h3>
-                <p className="text-foreground mb-4">Lead the chaos. Your brand front and center.</p>
-                <ul className="text-foreground text-left space-y-2">
-                  <li>• Logo on all materials</li>
-                  <li>• Opening ceremony speaking slot</li>
-                  <li>• Exclusive networking access</li>
-                  <li>• Custom challenge category</li>
-                </ul>
-              </div>
-
-              <div className="bg-secondary p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Track Sponsor</h3>
-                <p className="text-foreground mb-4">Sponsor a specific weird problem category.</p>
-                <ul className="text-foreground text-left space-y-2">
-                  <li>• Category naming rights</li>
-                  <li>• Judge panel participation</li>
-                  <li>• Prize presentation</li>
-                  <li>• Logo on track materials</li>
-                </ul>
-              </div>
-
-              <div className="bg-secondary p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Food Sponsor</h3>
-                <p className="text-foreground mb-4">Feed the innovators. Fuel the weird.</p>
-                <ul className="text-foreground text-left space-y-2">
-                  <li>• Branded meal service</li>
-                  <li>• Logo on food packaging</li>
-                  <li>• Social media mentions</li>
-                  <li>• Happy hackers</li>
-                </ul>
-              </div>
-
-              <div className="bg-secondary p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Swag Sponsor</h3>
-                <p className="text-foreground mb-4">Memorable takeaways for weird problem solvers.</p>
-                <ul className="text-foreground text-left space-y-2">
-                  <li>• Custom branded items</li>
-                  <li>• Distribution at event</li>
-                  <li>• Post-event social reach</li>
-                  <li>• Lasting brand impression</li>
-                </ul>
+                <div className="text-center pt-6">
+                  <a 
+                    href="mailto:goonhacks2025@gmail.com?subject=Sponsor Package Request" 
+                    className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
+                  >
+                    SPONSOR PACKAGE
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div className="pt-8">
-              <p className="text-lg text-foreground mb-6">
-                Ready to sponsor something wonderfully weird?
-              </p>
-              <a 
-                href="mailto:sponsors@goonhacks.com" 
-                className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
-              >
-                GET IN TOUCH
-              </a>
+            {/* Our Sponsors Section */}
+            <div className="bg-secondary p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Our Sponsors</h3>
+              <div className="text-center space-y-6">
+                <p className="text-lg text-foreground">
+                  We're proud to partner with organizations that believe in unconventional innovation.
+                </p>
+                
+                {/* Sponsor Logos Grid - Currently Empty */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+                  <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
+                    <span className="text-foreground/60 text-center">
+                      Your Logo<br />Here
+                    </span>
+                  </div>
+                  <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
+                    <span className="text-foreground/60 text-center">
+                      Your Logo<br />Here
+                    </span>
+                  </div>
+                  <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
+                    <span className="text-foreground/60 text-center">
+                      Your Logo<br />Here
+                    </span>
+                  </div>
+                </div>
+
+                <p className="text-foreground">
+                  Want to see your company here? Join our mission to support weird problem solving.
+                </p>
+              </div>
             </div>
           </div>
         </div>

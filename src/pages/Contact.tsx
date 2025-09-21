@@ -42,45 +42,72 @@ export const Contact = () => {
               Questions about the world's weirdest hackathon? We've got answers.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary p-8 rounded-lg text-left space-y-4">
-                <h3 className="text-2xl font-bold text-foreground">General Inquiries</h3>
-                <p className="text-foreground">
-                  <strong>Email:</strong> hello@goonhacks.com
+            {/* Contact Email */}
+            <div className="bg-secondary p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">All Inquiries</h3>
+              <div className="text-center space-y-4">
+                <p className="text-foreground text-lg">
+                  For all questions, sponsorship opportunities, media inquiries, and general information:
                 </p>
+                <div className="text-center">
+                  <a 
+                    href="mailto:goonhacks2025@gmail.com" 
+                    className="inline-block text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    goonhacks2025@gmail.com
+                  </a>
+                </div>
                 <p className="text-foreground">
-                  Got questions about the event, registration, or just want to say hi? Drop us a line.
-                </p>
-              </div>
-
-              <div className="bg-secondary p-8 rounded-lg text-left space-y-4">
-                <h3 className="text-2xl font-bold text-foreground">Sponsorship</h3>
-                <p className="text-foreground">
-                  <strong>Email:</strong> sponsors@goonhacks.com
-                </p>
-                <p className="text-foreground">
-                  Want to sponsor something wonderfully weird? Let's talk partnerships.
-                </p>
-              </div>
-
-              <div className="bg-secondary p-8 rounded-lg text-left space-y-4">
-                <h3 className="text-2xl font-bold text-foreground">Media & Press</h3>
-                <p className="text-foreground">
-                  <strong>Email:</strong> press@goonhacks.com
-                </p>
-                <p className="text-foreground">
-                  Journalists, bloggers, content creators - we'd love to chat about weird tech.
+                  We'll get back to you within 24 hours!
                 </p>
               </div>
+            </div>
 
-              <div className="bg-secondary p-8 rounded-lg text-left space-y-4">
-                <h3 className="text-2xl font-bold text-foreground">Mentors & Judges</h3>
-                <p className="text-foreground">
-                  <strong>Email:</strong> mentors@goonhacks.com
-                </p>
-                <p className="text-foreground">
-                  Want to help guide weird problem solvers? Join our mentor/judge team.
-                </p>
+            {/* FAQ Section */}
+            <div className="bg-secondary p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Frequently Asked Questions</h3>
+              <div className="space-y-6 text-left">
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">What makes GoonHacks different from other hackathons?</h4>
+                  <p className="text-foreground">
+                    We focus on solving weird, unconventional problems that other hackathons ignore. Think outside the box and tackle absurd challenges that might just change the world.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Who can participate?</h4>
+                  <p className="text-foreground">
+                    Anyone with a passion for building! Students, professionals, designers, developers, entrepreneurs - if you're ready to solve something weird, you're welcome.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Do I need a team?</h4>
+                  <p className="text-foreground">
+                    You can participate solo or form teams of up to 4 people. We'll also have team formation sessions for those looking to join forces with fellow weird problem solvers.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">What should I bring?</h4>
+                  <p className="text-foreground">
+                    Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and all the weird problems you can handle. Sleeping bags are optional but recommended!
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Are there prizes?</h4>
+                  <p className="text-foreground">
+                    Absolutely! We have prizes for the most innovative solutions, best weird problem tackle, and audience choice. Plus, the real prize is the friends you make along the way (and the chaos you create).
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Is there a registration fee?</h4>
+                  <p className="text-foreground">
+                    Nope! GoonHacks is completely free. We believe weird problem solving shouldn't be behind a paywall.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -92,7 +119,7 @@ export const Contact = () => {
                 </p>
                 <p className="text-foreground">
                   165 King St W<br />
-                  Toronto, ON<br />
+                  Waterloo, ON<br />
                   Canada
                 </p>
                 <p className="text-foreground mt-4">
@@ -106,7 +133,7 @@ export const Contact = () => {
               <div className="flex justify-center space-x-8">
                 <div className="flex flex-col items-center space-y-2">
                   <img src="/twitter.png" alt="Twitter" className="w-8 h-8" />
-                  <span className="text-foreground">@goonhacks</span>
+                  <span className="text-foreground">Twitter</span>
                 </div>
                 <a 
                   href="https://www.linkedin.com/company/goonhacks/" 
