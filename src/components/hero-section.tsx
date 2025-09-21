@@ -7,7 +7,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-secondary to-background relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-background checkered-bg relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-primary/20"></div>
       
       {/* Crooked corner sections */}
@@ -37,12 +37,13 @@ export const HeroSection = () => {
       </div>
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <h1 className="text-6xl md:text-8xl font-bold text-primary glow-text">
+          <h1 className="text-6xl md:text-8xl font-bold text-primary glow-text square-font">
             GoonHacks
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A premier hackathon where innovation meets creativity. Build, learn, and compete with the best minds in tech.
+            Tech Innovation Center • 123 Startup Ave<br />
+            March 15-17, 2025
           </p>
           
           <div className="pt-8">
