@@ -201,7 +201,7 @@ export const Home = () => {
                     <div className="text-center">
                       <a 
                         href="mailto:goonhacks2025@gmail.com" 
-                        className="inline-block text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors"
+                        className="inline-block text-2xl font-bold text-white hover:text-gray-200 transition-colors"
                       >
                         goonhacks2025@gmail.com
                       </a>
