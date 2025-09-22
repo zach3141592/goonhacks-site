@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="bg-background checkered-bg">
+    <div className="bg-black">
       {/* Fixed Navigation Banner */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 py-6 px-6 flex items-center justify-between w-full relative overflow-hidden">
         {/* Background pattern overlay */}
@@ -171,38 +171,6 @@ export const Home = () => {
                   </div>
                 </div>
 
-                {/* Our Sponsors Section */}
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Our Sponsors</h3>
-                  <div className="text-center space-y-6">
-                    <p className="text-lg text-foreground">
-                      We're proud to partner with organizations that believe in unconventional innovation.
-                    </p>
-                    
-                    {/* Sponsor Logos Grid - Currently Empty */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
-                      <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
-                        <span className="text-foreground/60 text-center">
-                          Your Logo<br />Here
-                        </span>
-                      </div>
-                      <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
-                        <span className="text-foreground/60 text-center">
-                          Your Logo<br />Here
-                        </span>
-                      </div>
-                      <div className="bg-background/20 border-2 border-dashed border-foreground/30 rounded-lg p-8 flex items-center justify-center min-h-[120px]">
-                        <span className="text-foreground/60 text-center">
-                          Your Logo<br />Here
-                        </span>
-                      </div>
-                    </div>
-
-                    <p className="text-foreground">
-                      Want to see your company here? Join our mission to support weird problem solving.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
