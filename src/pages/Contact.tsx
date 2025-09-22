@@ -115,10 +115,10 @@ export const Contact = () => {
               <h3 className="text-2xl font-bold text-foreground mb-6">Event Location</h3>
               <div className="text-left space-y-2">
                 <p className="text-foreground">
-                  <strong>Builder's Club</strong>
+                  <strong>TBD</strong>
                 </p>
                 <p className="text-foreground">
-                  165 King St W<br />
+                  Goated Spot<br />
                   Waterloo, ON<br />
                   Canada
                 </p>

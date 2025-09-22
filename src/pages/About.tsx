@@ -99,8 +99,8 @@ export const About = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-lg mb-2">Where</h4>
-                  <p className="text-foreground">Builder's Club</p>
-                  <p className="text-foreground text-sm">165 King St W, Waterloo</p>
+                  <p className="text-foreground">TBD</p>
+                  <p className="text-foreground text-sm">Waterloo, ON</p>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-lg mb-2">What</h4>

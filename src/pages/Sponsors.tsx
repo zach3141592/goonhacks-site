@@ -70,7 +70,9 @@ export const Sponsors = () => {
 
                 <div className="text-center pt-6">
                   <a 
-                    href="mailto:goonhacks2025@gmail.com?subject=Sponsor Package Request" 
+                    href="https://docs.google.com/document/d/1tfz8JSWi_9jlc3vMOUv-DeeHlCEzL-yNa5-8cTSyPxg/edit?usp=sharing" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
                   >
                     SPONSOR PACKAGE

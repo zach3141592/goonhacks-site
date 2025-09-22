@@ -45,7 +45,7 @@ export const Races = () => {
           {/* Next race announcement */}
           <div className="py-2">
             <p className="text-lg text-foreground font-medium">
-              NOVEMBER 29-30, 2025 | BUILDER'S CLUB, 165 KING ST W
+              NOVEMBER 29-30, 2025 | WATERLOO, ON
             </p>
           </div>
 
