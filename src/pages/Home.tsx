@@ -129,7 +129,7 @@ export const Home = () => {
               {/* Content */}
               <div className="space-y-8">
                 {/* Why Sponsor Section */}
-                <div className="bg-secondary p-8 rounded-lg">
+                <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Why Sponsor GoonHacks?</h3>
                   <div className="space-y-6 text-left">
                     <p className="text-lg text-foreground">
@@ -172,7 +172,7 @@ export const Home = () => {
                 </div>
 
                 {/* Our Sponsors Section */}
-                <div className="bg-secondary p-8 rounded-lg">
+                <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Our Sponsors</h3>
                   <div className="text-center space-y-6">
                     <p className="text-lg text-foreground">
@@ -224,7 +224,7 @@ export const Home = () => {
                 </p>
 
                 {/* Contact Email */}
-                <div className="bg-secondary p-8 rounded-lg">
+                <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6 text-center">All Inquiries</h3>
                   <div className="text-center space-y-4">
                     <p className="text-foreground text-lg">
@@ -245,7 +245,7 @@ export const Home = () => {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="bg-secondary p-8 rounded-lg">
+                <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Frequently Asked Questions</h3>
                   <div className="space-y-6 text-left">
                     <div>
@@ -292,7 +292,7 @@ export const Home = () => {
                   </div>
                 </div>
 
-                <div className="bg-secondary p-8 rounded-lg">
+                <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-6">Event Details</h3>
                   <div className="text-left space-y-2">
                     <p className="text-foreground">
