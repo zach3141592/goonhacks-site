@@ -18,7 +18,7 @@ export const Home = () => {
               GOONHACKS
             </span>
           </div>
-          <span className="text-white font-bold text-xl square-font typing-only">
+          <span className="text-white font-bold text-xl square-font">
             BUILD WITHOUT PERMISSION
           </span>
         </div>
