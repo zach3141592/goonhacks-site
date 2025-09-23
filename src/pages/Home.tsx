@@ -50,7 +50,7 @@ export const Home = () => {
               {/* Next race announcement */}
               <div className="py-2">
                 <p className="text-lg text-foreground font-medium">
-                  NOVEMBER 29-30, 2025 | WATERLOO, ON
+                  NOVEMBER 29-30, 2025 | BUILDER'S CLUB, WATERLOO, ON
                 </p>
               </div>
 
@@ -264,10 +264,10 @@ export const Home = () => {
                   <h3 className="text-2xl font-bold text-foreground mb-6">Event Details</h3>
                   <div className="text-left space-y-2">
                     <p className="text-foreground">
-                      <strong>TBD</strong>
+                      <strong>Location:</strong>
                     </p>
                     <p className="text-foreground">
-                      Goated Spot<br />
+                      165 King St. W (Builder's Club)<br />
                       Waterloo, ON<br />
                       Canada
                     </p>
