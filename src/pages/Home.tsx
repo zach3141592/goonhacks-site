@@ -45,7 +45,7 @@ export const Home = () => {
                 <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font leading-tight">
                   <div className="opacity-line">THE HACKATHON</div>
                   <div className="opacity-line">THAT'S SOLVING</div>
-                  <div className="opacity-line">THE WORLD'S WEIRDEST PROBLEMS.</div>
+                  <div className="opacity-line">THE WORLD'S WEIRDEST PROBLEMS</div>
                 </h1>
               </div>
 
