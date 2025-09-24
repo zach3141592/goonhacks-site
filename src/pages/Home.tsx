@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <div className="bg-black">
       {/* Fixed Navigation Banner */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 py-6 px-6 flex items-center justify-between w-full relative overflow-hidden">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 py-4 md:py-6 px-4 md:px-6 flex items-center justify-between w-full relative overflow-hidden">
         {/* Background pattern overlay */}
         <div className="absolute inset-0 opacity-20">
           <div className="h-full w-full bg-gradient-to-br from-transparent via-blue-600/30 to-transparent"></div>
@@ -12,13 +12,13 @@ export const Home = () => {
         </div>
         {/* Bottom fade overlay */}
         <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-b from-transparent to-background opacity-80"></div>
-        <div className="relative z-10 flex items-center justify-between w-full">
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full space-y-2 md:space-y-0">
           <div className="flex items-center">
-            <span className="text-white font-bold text-xl square-font">
+            <span className="text-white font-bold text-lg md:text-xl square-font">
               GOONHACKS
             </span>
           </div>
-          <span className="text-white font-bold text-xl square-font">
+          <span className="text-white font-bold text-sm md:text-xl square-font text-center">
             BUILD WITHOUT PERMISSION
           </span>
         </div>
@@ -37,7 +37,7 @@ export const Home = () => {
       <div>
         {/* HOME SECTION */}
         <section id="home" className="min-h-screen flex items-center">
-          <div className="container mx-auto px-6 -mt-24">
+          <div className="container mx-auto px-6 mt-20 md:-mt-24">
             <div className="max-w-4xl mx-auto text-center space-y-4">
               {/* Main heading */}
               <div>
