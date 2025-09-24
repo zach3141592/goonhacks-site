@@ -27,7 +27,6 @@ export const Home = () => {
       {/* Navigation Menu */}
       <nav className="py-4 w-full">
         <div className="flex justify-center space-x-12 text-sm font-medium">
-          <a href="#home" className="text-foreground hover:text-primary transition-colors">HOME</a>
           <a href="#manifesto" className="text-foreground hover:text-primary transition-colors">MANIFESTO</a>
           <a href="#sponsors" className="text-foreground hover:text-primary transition-colors">SPONSORS</a>
           <a href="#faq" className="text-foreground hover:text-primary transition-colors">FAQ</a>
@@ -42,11 +41,12 @@ export const Home = () => {
             <div className="max-w-4xl mx-auto text-center space-y-4">
               {/* Main heading */}
               <div>
-                <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font leading-tight">
-                  <div className="opacity-line">THE HACKATHON</div>
-                  <div className="opacity-line">THAT'S SOLVING</div>
-                  <div className="opacity-line">THE WORLD'S WEIRDEST PROBLEMS</div>
-                </h1>
+                  <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font leading-tight">
+                    <div className="opacity-line">THE HACKATHON</div>
+                    <div className="opacity-line">THAT'S SOLVING</div>
+                    <div className="opacity-line">THE WORLD'S WEIRDEST</div>
+                    <div className="opacity-line">PROBLEMS</div>
+                  </h1>
               </div>
 
               {/* Next race announcement */}
@@ -130,47 +130,28 @@ export const Home = () => {
 
               {/* Content */}
               <div className="space-y-8">
-                {/* Why Sponsor Section */}
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Why Sponsor GoonHacks?</h3>
-                  <div className="space-y-6 text-left">
-                    <p className="text-lg text-foreground">
-                      GoonHacks isn't just another hackathon—it's where unconventional thinking meets real innovation. 
-                      When you sponsor us, you're not just supporting an event, you're investing in the future of creative problem-solving.
-                    </p>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                      <div className="text-center">
-                        <h4 className="text-xl font-bold text-foreground mb-3">Reach Innovators</h4>
-                        <p className="text-foreground">
-                          Connect with builders who think differently and solve problems others won't touch.
-                        </p>
-                      </div>
-                      <div className="text-center">
-                        <h4 className="text-xl font-bold text-foreground mb-3">Brand Association</h4>
-                        <p className="text-foreground">
-                          Align your brand with creativity, innovation, and the courage to build without permission.
-                        </p>
-                      </div>
-                      <div className="text-center">
-                        <h4 className="text-xl font-bold text-foreground mb-3">Talent Pipeline</h4>
-                        <p className="text-foreground">
-                          Discover and recruit the next generation of unconventional problem solvers.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="text-center pt-6">
-                      <a 
-                        href="mailto:goonhacks2025@gmail.com" 
-                        className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
-                      >
-                        BECOME A SPONSOR
-                      </a>
-                    </div>
+                <div className="p-8 text-center">
+                  <p className="text-lg text-foreground mb-4">
+                    Interested in sponsoring?
+                  </p>
+                  <p className="text-lg text-foreground mb-6">
+                    Reach out to us at{" "}
+                    <a 
+                      href="mailto:goonhacks2025@gmail.com" 
+                      className="text-white hover:text-gray-300 transition-colors underline"
+                    >
+                      goonhacks2025@gmail.com
+                    </a>
+                  </p>
+                  <div className="text-center">
+                    <a 
+                      href="mailto:goonhacks2025@gmail.com" 
+                      className="inline-block bg-blue-900 text-white px-8 py-3 font-bold text-lg hover:bg-blue-800 transition-colors"
+                    >
+                      BECOME A SPONSOR
+                    </a>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
