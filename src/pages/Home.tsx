@@ -91,7 +91,8 @@ export const Home = () => {
               {/* Content */}
               <div className="text-left space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                  There are so many problems that need solutions, but everyone is too afraid to make them.
+                  
+                  There are a lot of weird problems that need solutions, but people are too afraid to make them.
                 </p>
                 
                 <p className="text-lg leading-relaxed">
@@ -105,8 +106,7 @@ export const Home = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Welcome to the hackathon where creativity meets chaos, where the strangest idea 
-                  might just be the most brilliant one.
+                  Welcome to the hackathon where you can solve the 
                 </p>
 
                 <div className="text-center pt-8">
