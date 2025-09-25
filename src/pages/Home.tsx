@@ -58,7 +58,7 @@ export const Home = () => {
               {/* Apply now button */}
               <div className="py-1">
                 <a 
-                  href="https://tally.so/r/nWWvWP" 
+                  href="https://luma.com/7rnkumkx" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block bg-blue-900 text-white px-6 py-2 font-bold text-base hover:bg-blue-800 transition-colors"
@@ -278,7 +278,7 @@ export const Home = () => {
               {/* Register Button */}
               <div className="text-center md:text-right">
                 <a 
-                  href="https://tally.so/r/nWWvWP" 
+                  href="https://luma.com/7rnkumkx" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block bg-blue-900 text-white px-6 py-3 font-bold hover:bg-blue-800 transition-colors"
