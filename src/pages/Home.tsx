@@ -27,7 +27,7 @@ export const Home = () => {
       {/* Navigation Menu */}
       <nav className="py-4 w-full">
         <div className="flex justify-center space-x-12 text-sm font-medium">
-          <a href="#manifesto" className="text-foreground hover:text-primary transition-colors">MANIFESTO</a>
+          <a href="#about" className="text-foreground hover:text-primary transition-colors">ABOUT</a>
           <a href="#sponsors" className="text-foreground hover:text-primary transition-colors">SPONSORS</a>
           <a href="#faq" className="text-foreground hover:text-primary transition-colors">FAQ</a>
         </div>
@@ -70,7 +70,7 @@ export const Home = () => {
 
               {/* Scroll indicator */}
               <div className="pt-3">
-                <a href="#manifesto" className="inline-block hover:text-primary transition-colors">
+                <a href="#about" className="inline-block hover:text-primary transition-colors">
                   <h2 className="text-xl font-bold text-foreground mb-2">BEFORE YOU LAUGH. READ THIS.</h2>
                   <div className="w-24 h-px bg-foreground mx-auto"></div>
                 </a>
@@ -79,34 +79,36 @@ export const Home = () => {
           </div>
         </section>
 
-        {/* MANIFESTO SECTION */}
-        <section id="manifesto" className="min-h-screen flex items-center py-16">
+        {/* ABOUT SECTION */}
+        <section id="about" className="min-h-screen flex items-center py-16">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center space-y-4">
               {/* Main heading */}
-              <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font">
-                MANIFESTO
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font mb-12">
+                ABOUT
               </h1>
 
               {/* Content */}
-              <div className="text-left space-y-6 text-foreground">
+              <div className="text-center space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                  
-                  There are a lot of weird problems that need solutions, but people are too afraid to make them.
+                 Most hackathons stick to the usual playbook.<br />
+                 Same apps, same pitches, same "big ideas."
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  While others build the same apps, solve the same problems, and chase the same investors, 
-                  we're here to tackle the absurd, the overlooked, and the downright bizarre.
+                 But there's a whole world of odd problems nobody touches;<br />
+                 mostly because it's easier not to.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  This isn't about changing the world with another social media platform. 
-                  This is about building solutions for problems you didn't know existed.
+                 Goonhacks is for the people who'd rather mess with the strange stuff.<br />
+                 We tackle the overlooked and the awkward,<br />
+                 and we do it together.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Welcome to the hackathon where you can solve the 
+                 Strength in numbers,<br />
+                 zero fear.
                 </p>
 
                 <div className="text-center pt-8">
