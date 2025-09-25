@@ -183,7 +183,7 @@ export const Home = () => {
                       Who can participate?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Anyone with a passion for building! Students, professionals, designers, developers, entrepreneurs - if you're ready to solve something weird, you're welcome.
+                      Anyone with a passion for building! Students, professionals, designers, developers, entrepreneurs, etc.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -192,7 +192,7 @@ export const Home = () => {
                       Do I need a team?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      You can participate solo or form teams of up to 4 people. We'll also have team formation sessions for those looking to join forces with fellow weird problem solvers.
+                      You can participate solo or form teams of up to 3 people. You can also find a team on our Discord server.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -201,7 +201,7 @@ export const Home = () => {
                       What should I bring?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and all the weird problems you can handle. Sleeping bags are optional but recommended!
+                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and fun challenges. Sleeping bags are optional but recommended.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -219,7 +219,7 @@ export const Home = () => {
                       Is there a registration fee?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Nope! GoonHacks is completely free. We believe weird problem solving shouldn't be behind a paywall.
+                      Nope! GoonHacks is completely free. 
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
