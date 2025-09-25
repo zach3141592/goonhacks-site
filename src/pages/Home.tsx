@@ -90,24 +90,24 @@ export const Home = () => {
               {/* Content */}
               <div className="text-center space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                 Most hackathons stick to the usual playbook.<br />
-                 Same apps, same pitches, same "big ideas."
+                 Most hackathons stick to solving the usual mainstream problems.<br />
+                 Same apps, same pitches, same "big ideas".
                 </p>
                 
                 <p className="text-lg leading-relaxed">
                  But there's a whole world of odd problems nobody touches;<br />
-                 mostly because it's easier not to.
+                 mostly because they're weird and people are afraid of being judged.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 Goonhacks is for the people who'd rather mess with the strange stuff.<br />
+                 Goonhacks is for the people who mess with these strange themes.<br />
                  We tackle the overlooked and the awkward,<br />
                  and we do it together.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 Strength in numbers,<br />
-                 zero fear.
+                 There's strength in numbers, so you can build with zero fear.<br />
+                 Build something cool to solve something weird. 
                 </p>
 
                 <div className="text-center pt-8">
