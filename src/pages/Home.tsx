@@ -176,7 +176,7 @@ export const Home = () => {
                       What makes GoonHacks different from other hackathons?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      We focus on solving weird, unconventional problems that other hackathons ignore. Think outside the box and tackle absurd challenges that might just change the world.
+                      We focus on solving weird, unconventional problems that other hackathons ignore. Also, gonna be more hype than any other hackathon.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -203,7 +203,7 @@ export const Home = () => {
                       What should I bring?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and fun challenges. Sleeping bags are optional but recommended.
+                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and fun challenges. Sleeping bags are recommended.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -212,7 +212,7 @@ export const Home = () => {
                       Are there prizes?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Absolutely! We have prizes for the most innovative solutions, best weird problem tackle, and audience choice. Plus, the real prize is the friends you make along the way (and the chaos you create).
+                      Absolutely! We have prizes for the weirdest idea, best pitch, most viral, biggest balls, most performative, etc. 
                     </AccordionContent>
                   </AccordionItem>
 
