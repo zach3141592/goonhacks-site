@@ -100,7 +100,7 @@ export const Home = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 GoOnhacks is for the people who mess with these strange themes.<br />
+                 Go On Hacks is for the people who mess with these strange themes.<br />
                  We tackle the overlooked and the awkward,<br />
                  and we do it together.
                 </p>
@@ -172,7 +172,7 @@ export const Home = () => {
                 <Accordion type="single" collapsible className="w-full space-y-4">
                   <AccordionItem value="item-1" className="border-foreground/20">
                     <AccordionTrigger className="text-left text-lg font-bold text-foreground hover:text-primary">
-                      What makes GoOnHacks different from other hackathons?
+                      What makes Go On Hacks different from other hackathons?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
                       We focus on solving weird, unconventional problems that other hackathons ignore. Also, gonna be more hype than any other hackathon.
@@ -220,7 +220,7 @@ export const Home = () => {
                       Is there a registration fee?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Nope! GoOnHacks is completely free. 
+                      Nope! Go On Hacks is completely free. 
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
