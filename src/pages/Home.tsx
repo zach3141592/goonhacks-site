@@ -23,7 +23,7 @@ export const Home = () => {
           
           <div className="flex justify-end order-2 md:order-3">
             <span className="text-white font-bold text-sm md:text-xl square-font text-right">
-              BUILD WITHOUT PERMISSION
+              Go On...Do It!
             </span>
           </div>
         </div>
@@ -292,7 +292,7 @@ export const Home = () => {
             {/* Copyright */}
             <div className="mt-8 pt-6 border-t border-gray-800 text-center space-y-2">
               <p className="text-gray-400 text-sm">
-                © 2025 GoOnHacks. Build without permission.
+                © 2025 Go On Hacks. Build without permission.
               </p>
               <p className="text-gray-400 text-sm">
                 Inspired by{" "}
