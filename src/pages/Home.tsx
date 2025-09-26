@@ -23,7 +23,7 @@ export const Home = () => {
           
           <div className="flex justify-end order-2 md:order-3">
             <span className="text-white font-bold text-sm md:text-xl square-font text-right">
-              Go On...Do It!
+              GO ON AND BUILD
             </span>
           </div>
         </div>
