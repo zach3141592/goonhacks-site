@@ -290,9 +290,20 @@ export const Home = () => {
             </div>
 
             {/* Copyright */}
-            <div className="mt-8 pt-6 border-t border-gray-800 text-center">
+            <div className="mt-8 pt-6 border-t border-gray-800 text-center space-y-2">
               <p className="text-gray-400 text-sm">
                 © 2025 GoOnHacks. Build without permission.
+              </p>
+              <p className="text-gray-400 text-sm">
+                Inspired by{" "}
+                <a 
+                  href="https://stupidhackathon.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-300 transition-colors underline"
+                >
+                  Stupid Hackathon
+                </a>
               </p>
             </div>
           </div>
