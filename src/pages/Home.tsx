@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="flex flex-col md:grid md:grid-cols-3 items-center w-full space-y-4 md:space-y-0">
           <div className="flex items-center justify-start">
             <span className="text-white font-bold text-lg md:text-xl square-font">
-              GO ON HACKS
+              GOON HACKS
             </span>
           </div>
           
@@ -51,7 +51,7 @@ export const Home = () => {
               {/* Next race announcement */}
               <div className="py-2">
                 <p className="text-lg text-foreground font-medium">
-                  NOVEMBER 29-30, 2025 | BUILDER'S CLUB, WATERLOO, ON
+                  OCTOBER 9-10, 2025 | SPERMRACING HQ, SAN FRANCISCO, CA
                 </p>
               </div>
 
@@ -100,7 +100,7 @@ export const Home = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 Go On Hacks is for the people who mess with these strange themes.<br />
+                 GoOnHacks is for the people who mess with these strange themes.<br />
                  We tackle the overlooked and the awkward,<br />
                  and we do it together.
                 </p>
@@ -172,7 +172,7 @@ export const Home = () => {
                 <Accordion type="single" collapsible className="w-full space-y-4">
                   <AccordionItem value="item-1" className="border-foreground/20">
                     <AccordionTrigger className="text-left text-lg font-bold text-foreground hover:text-primary">
-                      What makes Go On Hacks different from other hackathons?
+                      What makes GoOnHacks different from other hackathons?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
                       We focus on solving weird, unconventional problems that other hackathons ignore. Also, gonna be more hype than any other hackathon.
@@ -220,7 +220,7 @@ export const Home = () => {
                       Is there a registration fee?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Nope! Go On Hacks is completely free. 
+                      Nope! GoOnHacks is completely free. 
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -292,7 +292,7 @@ export const Home = () => {
             {/* Copyright */}
             <div className="mt-8 pt-6 border-t border-gray-800 text-center space-y-2">
               <p className="text-gray-400 text-sm">
-                © 2025 Go On Hacks. Build without permission.
+                © 2025 GoOnHacks. Build without permission.
               </p>
               <p className="text-gray-400 text-sm">
                 Inspired by{" "}
