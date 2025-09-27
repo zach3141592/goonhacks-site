@@ -51,7 +51,7 @@ export const Home = () => {
               {/* Next race announcement */}
               <div className="py-2">
                 <p className="text-lg text-foreground font-medium">
-                  OCTOBER 9-10, 2025 | SPERMRACING HQ, SAN FRANCISCO, CA
+                  OCTOBER 9-10, 2025 | BUILDER'S CLUB, WATERLOO, ON
                 </p>
               </div>
 
