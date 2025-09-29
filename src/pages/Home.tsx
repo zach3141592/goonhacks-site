@@ -90,7 +90,7 @@ export const Home = () => {
               {/* Content */}
               <div className="text-center space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                 Most hackathons stick to solving the same "big ideas"<br />
+                 Most hackathons solve the same "big ideas": healthcare, education, etc<br />
                  But that get's kinda boring after a while
                 </p>
                 
@@ -100,13 +100,15 @@ export const Home = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 Go On Hacks is for the people who mess with these strange themes<br />
+                 Go On Hacks is for the people who mess with these strange ideas<br />
                  We tackle the overlooked, the awkward, and the stupid<br />
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 There's strength in numbers, so you can build with zero fear.<br />
-                 Make it weird, make it funny, and make it big
+                 <br />
+                 You wanna make an AI agent to tell you when you're being too performative? 
+                 An app that ransoms your old dms until you finally message that special someone?
+                 Do it. Just make it weird, make it funny, and make it without fear
                 </p>
 
                 <div className="text-center pt-8">
