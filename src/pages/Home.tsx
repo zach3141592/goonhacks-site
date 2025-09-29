@@ -106,8 +106,8 @@ export const Home = () => {
 
                 <p className="text-lg leading-relaxed">
                  <br />
-                 You wanna make an AI agent to tell you when you're being too performative? 
-                 An app that ransoms your old dms until you finally message that special someone?
+                 You wanna make an AI agent to tell you when you're being too performative? <br />
+                 An app that ransoms your old dms until you finally message that special someone? <br />
                  Do it. Just make it weird, make it funny, and make it without fear
                 </p>
 
