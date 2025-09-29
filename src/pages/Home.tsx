@@ -70,7 +70,7 @@ export const Home = () => {
               {/* Scroll indicator */}
               <div className="pt-3">
                 <a href="#about" className="inline-block hover:text-primary transition-colors">
-                  <h2 className="text-xl font-bold text-foreground mb-2">BEFORE YOU LAUGH. READ THIS.</h2>
+                  <h2 className="text-xl font-bold text-foreground mb-2">"NO WAY THIS IS REAL" → READ THIS.</h2>
                   <div className="w-24 h-px bg-foreground mx-auto"></div>
                 </a>
               </div>
