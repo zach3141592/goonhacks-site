@@ -90,24 +90,23 @@ export const Home = () => {
               {/* Content */}
               <div className="text-center space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                 Most hackathons stick to solving the usual mainstream problems.<br />
-                 Same apps, same pitches, same "big ideas".
+                 Most hackathons stick to solving the same "big ideas"<br />
+                 But that get's kinda boring after a while
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                 But there's a whole world of odd problems nobody touches;<br />
-                 mostly because they're weird and people are afraid of being judged.
+                 We've found that there's a whole world of really weird problems nobody touches<br />
+                 Because they're weird and people are afraid of being judged
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 Go On Hacks is for the people who mess with these strange themes.<br />
-                 We tackle the overlooked and the awkward,<br />
-                 and we do it together.
+                 Go On Hacks is for the people who mess with these strange themes<br />
+                 We tackle the overlooked, the awkward, and the stupid<br />
                 </p>
 
                 <p className="text-lg leading-relaxed">
                  There's strength in numbers, so you can build with zero fear.<br />
-                 Build something cool to solve something weird. 
+                 Make it weird, make it funny, and make it big
                 </p>
 
                 <div className="text-center pt-8">
