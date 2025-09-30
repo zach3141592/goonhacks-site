@@ -270,7 +270,7 @@ export const Home = () => {
                       What should I bring?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and fun challenges. Sleeping bags are recommended.
+                      Your laptop, chargers, and an open mind. We'll provide food, drinks, WiFi, and fun challenges.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -279,7 +279,7 @@ export const Home = () => {
                       Are there prizes?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Absolutely! We have prizes for the weirdest idea, best pitch, most viral, biggest balls, most performative, etc. 
+                      Of Course! We have prizes for the weirdest idea, best pitch, most rizz, biggest balls, most performative, etc. 
                     </AccordionContent>
                   </AccordionItem>
 
@@ -290,6 +290,23 @@ export const Home = () => {
                     <AccordionContent className="text-foreground">
                       Nope! Go On Hacks is completely free. 
                     </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-7" className="border-foreground/20">
+                    <AccordionTrigger className="text-left text-lg font-bold text-foreground hover:text-primary">
+                      What should I build?
+                    </AccordionTrigger>
+                      <AccordionContent className="text-foreground">
+                        Something weird. Think about problems that are too strange, too awkward, or too niche for anyone else to tackle. Check out some{" "}
+                        <a 
+                          href="https://toronto-stupid-ideas-hackathon.devpost.com/project-gallery" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-white hover:text-gray-300 transition-colors underline"
+                        >
+                          inspiration
+                        </a>.
+                      </AccordionContent>
                   </AccordionItem>
                 </Accordion>
               </div>
