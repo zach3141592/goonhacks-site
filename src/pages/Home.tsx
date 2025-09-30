@@ -70,7 +70,7 @@ export const Home = () => {
               {/* Scroll indicator */}
               <div className="pt-3">
                 <a href="#about" className="inline-block hover:text-primary transition-colors">
-                  <h2 className="text-xl font-bold text-foreground mb-2">"NO WAY THIS IS REAL" → READ THIS.</h2>
+                  <h2 className="text-xl font-bold text-foreground mb-2">"NO WAY THIS IS REAL"</h2>
                   <div className="w-24 h-px bg-foreground mx-auto"></div>
                 </a>
               </div>
@@ -105,7 +105,6 @@ export const Home = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                 <br />
                  You wanna make an AI agent to tell you when you're being too performative? <br />
                  An app that ransoms your old dms until you finally message that special someone? <br />
                  Do it. Just make it weird, make it funny, and make it without fear
@@ -131,10 +130,78 @@ export const Home = () => {
               </h1>
 
               {/* Content */}
-              <div className="space-y-8">
+              <div className="space-y-12">
+                {/* Our Sponsors Section */}
+                <div className="p-8 text-center">
+                  <h3 className="text-2xl font-bold text-foreground mb-8">Our Sponsors:</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-items-center max-w-5xl mx-auto">
+                    <a 
+                      href="https://www.polarity.cc/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/polarity.png" alt="Polarity" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://staging.hackcanada.org/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/HackCanada.png" alt="Hack Canada" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://www.linkedin.com/in/jvngyn/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/Jeff Nguyen.png" alt="Jeff Nguyen" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://www.linkedin.com/company/jointhesyndicate/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/syndicate.png" alt="Syndicate" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://www.aicollective.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/AICollective.png" alt="AI Collective" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://www.akatos.house/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/akatos.png" alt="Akatos" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://buildersclub.ca/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/buildersclub.jpg" alt="Builders Club" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <div className="bg-gray-100 p-6 rounded-lg w-full max-w-xs border-2 border-dashed border-gray-300">
+                      <div className="h-16 md:h-20 w-full flex items-center justify-center">
+                        <span className="text-gray-500 font-medium text-lg">and more to come...</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="p-8 text-center">
                   <p className="text-lg text-foreground mb-4">
-                    Interested in sponsoring?
+                    Interested in sponsoring a weekend of innovation?
                   </p>
                   <p className="text-lg text-foreground mb-6">
                     Reach out to us at{" "}
