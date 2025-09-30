@@ -340,10 +340,15 @@ export const Home = () => {
               <div className="text-center">
                 <h3 className="text-lg font-bold text-white mb-3">Follow Us</h3>
                 <div className="flex justify-center space-x-6">
-                  <div className="flex flex-col items-center space-y-1">
+                  <a 
+                    href="https://x.com/Go_On_Hacks" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center space-y-1 hover:opacity-80 transition-opacity"
+                  >
                     <img src="/twitter.svg" alt="Twitter" className="w-6 h-6" />
                     <span className="text-white text-xs">Twitter</span>
-                  </div>
+                  </a>
                   <a 
                     href="https://www.linkedin.com/company/goonhacks/" 
                     target="_blank" 
