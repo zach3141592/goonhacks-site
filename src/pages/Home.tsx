@@ -358,10 +358,15 @@ export const Home = () => {
                     <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
                     <span className="text-white text-xs">LinkedIn</span>
                   </a>
-                  <div className="flex flex-col items-center space-y-1">
+                  <a 
+                    href="https://www.instagram.com/goonhacks/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center space-y-1 hover:opacity-80 transition-opacity"
+                  >
                     <img src="/instagram.svg" alt="Instagram" className="w-6 h-6" />
                     <span className="text-white text-xs">Instagram</span>
-                  </div>
+                  </a>
                 </div>
               </div>
 
