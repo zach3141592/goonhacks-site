@@ -168,14 +168,6 @@ export const Home = () => {
                       <img src="/sponsors/syndicate.png" alt="Syndicate" className="h-16 md:h-20 w-full object-contain" />
                     </a>
                     <a 
-                      href="https://www.aicollective.com/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
-                    >
-                      <img src="/sponsors/AICollective.png" alt="AI Collective" className="h-16 md:h-20 w-full object-contain" />
-                    </a>
-                    <a 
                       href="https://www.akatos.house/" 
                       target="_blank" 
                       rel="noopener noreferrer"
