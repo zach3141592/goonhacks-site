@@ -387,7 +387,7 @@ export const Home = () => {
             {/* Copyright */}
             <div className="mt-8 pt-6 border-t border-gray-800 text-center space-y-2">
               <p className="text-gray-400 text-sm">
-                © 2025 Go On Hacks. Build without permission.
+                © 2025 Go On Hacks. 
               </p>
               <p className="text-gray-400 text-sm">
                 Inspired by{" "}
