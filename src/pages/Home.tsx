@@ -136,6 +136,14 @@ export const Home = () => {
                   <h3 className="text-2xl font-bold text-foreground mb-8">Our Sponsors:</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-items-center max-w-5xl mx-auto">
                     <a 
+                      href="https://www.spermracing.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/SR.png" alt="Sperm Racing" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
                       href="https://www.polarity.cc/" 
                       target="_blank" 
                       rel="noopener noreferrer"
