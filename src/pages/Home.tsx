@@ -144,6 +144,14 @@ export const Home = () => {
                       <img src="/SR.png" alt="Sperm Racing" className="h-16 md:h-20 w-full object-contain" />
                     </a>
                     <a 
+                      href="https://buildersclub.ca/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/buildersclub.jpg" alt="Builders Club" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
                       href="https://www.polarity.cc/" 
                       target="_blank" 
                       rel="noopener noreferrer"
@@ -182,14 +190,6 @@ export const Home = () => {
                       className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
                     >
                       <img src="/sponsors/akatos.png" alt="Akatos" className="h-16 md:h-20 w-full object-contain" />
-                    </a>
-                    <a 
-                      href="https://buildersclub.ca/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
-                    >
-                      <img src="/sponsors/buildersclub.jpg" alt="Builders Club" className="h-16 md:h-20 w-full object-contain" />
                     </a>
                     <div className="bg-gray-100 p-6 rounded-lg w-full max-w-xs border-2 border-dashed border-gray-300">
                       <div className="h-16 md:h-20 w-full flex items-center justify-center">
