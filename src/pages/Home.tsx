@@ -191,11 +191,22 @@ export const Home = () => {
                     >
                       <img src="/sponsors/akatos.png" alt="Akatos" className="h-16 md:h-20 w-full object-contain" />
                     </a>
-                    <div className="bg-gray-100 p-6 rounded-lg w-full max-w-xs border-2 border-dashed border-gray-300">
-                      <div className="h-16 md:h-20 w-full flex items-center justify-center">
-                        <span className="text-gray-500 font-medium text-lg">and more to come...</span>
-                      </div>
-                    </div>
+                    <a 
+                      href="https://athenachat.bot/chatbot" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/athenaAI.png" alt="Athena AI" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
+                      href="https://www.aicollective.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/AICollective.png" alt="AI Collective" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
                   </div>
                 </div>
 
