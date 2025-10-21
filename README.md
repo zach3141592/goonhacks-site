@@ -1,6 +1,6 @@
 # GoonHacks
 
-pull up guys
+pull up guys.
 
 ```sh
 # Step 1: Install the necessary dependencies.
