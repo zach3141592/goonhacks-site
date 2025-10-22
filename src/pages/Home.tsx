@@ -144,6 +144,14 @@ export const Home = () => {
                       <img src="/SR.png" alt="Sperm Racing" className="h-16 md:h-20 w-full object-contain" />
                     </a>
                     <a 
+                      href="https://www.shopify.com/ca" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/sponsors/shopfy.png" alt="Shopify" className="h-16 md:h-20 w-full object-contain" />
+                    </a>
+                    <a 
                       href="https://buildersclub.ca/" 
                       target="_blank" 
                       rel="noopener noreferrer"
