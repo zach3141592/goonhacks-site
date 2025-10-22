@@ -134,86 +134,86 @@ export const Home = () => {
                 {/* Our Sponsors Section */}
                 <div className="p-8 text-center">
                   <h3 className="text-2xl font-bold text-foreground mb-8">Our Sponsors:</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-items-center max-w-5xl mx-auto">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center max-w-5xl mx-auto">
                     <a 
                       href="https://www.spermracing.com/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/SR.png" alt="Sperm Racing" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/SR.png" alt="Sperm Racing" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.shopify.com/ca" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/shopfy.png" alt="Shopify" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/shopfy.png" alt="Shopify" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://buildersclub.ca/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/buildersclub.jpg" alt="Builders Club" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/buildersclub.jpg" alt="Builders Club" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.polarity.cc/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/polarity.png" alt="Polarity" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/polarity.png" alt="Polarity" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://staging.hackcanada.org/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/HackCanada.png" alt="Hack Canada" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/HackCanada.png" alt="Hack Canada" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.linkedin.com/in/jvngyn/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/Jeff Nguyen.png" alt="Jeff Nguyen" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/Jeff Nguyen.png" alt="Jeff Nguyen" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.linkedin.com/company/jointhesyndicate/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/syndicate.png" alt="Syndicate" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/syndicate.png" alt="Syndicate" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.akatos.house/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/akatos.png" alt="Akatos" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/akatos.png" alt="Akatos" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://athenachat.bot/chatbot" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/athenaAI.png" alt="Athena AI" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/athenaAI.png" alt="Athena AI" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
                       href="https://www.aicollective.com/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-6 rounded-lg w-full max-w-xs hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
                     >
-                      <img src="/sponsors/AICollective.png" alt="AI Collective" className="h-16 md:h-20 w-full object-contain" />
+                      <img src="/sponsors/AICollective.png" alt="AI Collective" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                   </div>
                 </div>
