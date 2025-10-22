@@ -220,10 +220,10 @@ export const Home = () => {
 
                 <div className="p-8 text-center">
                   <p className="text-lg text-foreground mb-4">
-                    Interested in sponsoring a weekend of innovation?
+                    WANT TO SPONSOR US?
                   </p>
                   <p className="text-lg text-foreground mb-6">
-                    Reach out to us at{" "}
+                    Reach out to{" "}
                     <a 
                       href="mailto:goonhacks2025@gmail.com" 
                       className="text-white hover:text-gray-300 transition-colors underline"
