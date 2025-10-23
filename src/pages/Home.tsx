@@ -67,13 +67,18 @@ export const Home = () => {
                 </a>
               </div>
 
-              {/* Scroll indicator */}
-              <div className="pt-3">
-                <a href="#about" className="inline-block hover:text-primary transition-colors">
-                  <h2 className="text-xl font-bold text-foreground mb-2">"NO WAY THIS IS REAL"</h2>
-                  <div className="w-24 h-px bg-foreground mx-auto"></div>
+              {/* Join online competition button */}
+              <div className="py-1">
+                <a 
+                  href="https://tally.so/r/wabeXb" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 text-white px-6 py-2 font-bold text-base hover:bg-green-700 transition-colors"
+                >
+                  JOIN ONLINE COMPETITION
                 </a>
               </div>
+
             </div>
           </div>
         </section>
