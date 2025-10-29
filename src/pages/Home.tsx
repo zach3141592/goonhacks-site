@@ -189,6 +189,14 @@ export const Home = () => {
                       <img src="/sponsors/Jeff Nguyen.png" alt="Jeff Nguyen" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
+                      href="https://buildbuddies.ca/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/buildbuddies.png" alt="Build Buddies" className="h-24 md:h-32 w-full object-contain" />
+                    </a>
+                    <a 
                       href="https://www.linkedin.com/company/jointhesyndicate/" 
                       target="_blank" 
                       rel="noopener noreferrer"
