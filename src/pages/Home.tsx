@@ -301,7 +301,7 @@ export const Home = () => {
                       Do I need a team?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      You can participate solo or form teams of up to 3 people. You can also find a team on our Discord server.
+                      You can participate solo or form teams of up to 4 people. You can also find a team on our Discord server.
                     </AccordionContent>
                   </AccordionItem>
 
