@@ -157,6 +157,14 @@ export const Home = () => {
                       <img src="/sponsors/shopfy.png" alt="Shopify" className="h-24 md:h-32 w-full object-contain" />
                     </a>
                     <a 
+                      href="https://typeos.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
+                    >
+                      <img src="/typeos.svg" alt="TypeOS" className="h-24 md:h-32 w-full object-contain" />
+                    </a>
+                    <a 
                       href="https://buildersclub.ca/" 
                       target="_blank" 
                       rel="noopener noreferrer"
