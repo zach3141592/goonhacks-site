@@ -327,7 +327,7 @@ export const Home = () => {
                       Are there prizes?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Of Course! We have prizes for the weirdest idea, best pitch, most rizz, biggest balls, most performative, etc. 
+                      Win $1000 cash, $2000 in API credits, job interviews, and more! We have prizes for the best overall, weirdest idea, best pitch, most performative, etc. 
                     </AccordionContent>
                   </AccordionItem>
 
