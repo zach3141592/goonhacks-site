@@ -144,7 +144,7 @@ export const Home = () => {
                       href="https://www.spermracing.com/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white p-8 rounded-lg w-full max-w-sm hover:shadow-lg transition-shadow"
+                      className="bg-white p-8 rounded-lg w-full max-w-sm md:max-w-2xl md:col-span-2 hover:shadow-lg transition-shadow"
                     >
                       <img src="/SR.png" alt="Sperm Racing" className="h-24 md:h-32 w-full object-contain" />
                     </a>
