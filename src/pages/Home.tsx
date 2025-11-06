@@ -16,6 +16,7 @@ export const Home = () => {
           <nav className="order-3 md:order-2 flex justify-center">
             <div className="flex justify-center space-x-6 md:space-x-12 text-sm font-medium">
               <a href="#about" className="text-foreground hover:text-primary transition-colors">ABOUT</a>
+              <a href="#schedule" className="text-foreground hover:text-primary transition-colors">SCHEDULE</a>
               <a href="#sponsors" className="text-foreground hover:text-primary transition-colors">SPONSORS</a>
               <a href="#faq" className="text-foreground hover:text-primary transition-colors">FAQ</a>
             </div>
@@ -119,6 +120,105 @@ export const Home = () => {
                   <p className="text-3xl md:text-4xl font-bold text-foreground square-font">
                     Weird Problems Need Solutions Too...
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCHEDULE SECTION */}
+        <section id="schedule" className="min-h-screen flex items-center py-16">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center space-y-4">
+              {/* Main heading */}
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground square-font mb-12">
+                SCHEDULE
+              </h1>
+
+              {/* Content */}
+              <div className="space-y-8 flex flex-col items-center">
+                {/* Saturday */}
+                <div className="space-y-4 text-left w-full max-w-2xl">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Saturday Nov 8, 2025:</h2>
+                  <div className="text-foreground space-y-3">
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">9:00 am</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Hacker Check In Begins</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">10:00 am</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Opening Ceremony Starts / Hacking Begins</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">1:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Lunch</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">2:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Interview with Sherwood Callaway presented by Akatos</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">6:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Dinner</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">7:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Clash Royale Tourney</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">9:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Go On Competition :)))</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">12:00 am</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Snacks</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Sunday */}
+                <div className="space-y-4 pt-8 text-left w-full max-w-2xl">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Sunday Nov 9, 2025:</h2>
+                  <div className="text-foreground space-y-3">
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">9:00 am</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Breakfast Snacks</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">11:00 am</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Vibe Coding Bee</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">1:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Lunch</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">4:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Performative Male Contest</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">4:00 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Hacking Ends and Judging Starts</span>
+                    </div>
+                    <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
+                      <span className="font-bold text-lg md:text-xl">6 or 7 pm</span>
+                      <span className="text-lg md:text-xl hidden md:inline"> → </span>
+                      <span className="text-lg">Dinner + Snacks + Awards</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
