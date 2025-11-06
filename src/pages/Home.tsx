@@ -400,7 +400,7 @@ export const Home = () => {
                       Who can participate?
                     </AccordionTrigger>
                     <AccordionContent className="text-foreground">
-                      Anyone with a passion for building! Students, professionals, designers, developers, entrepreneurs, etc
+                      Anyone with a passion for building. Students, professionals, designers, developers, entrepreneurs, etc
                     </AccordionContent>
                   </AccordionItem>
 
