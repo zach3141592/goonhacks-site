@@ -71,7 +71,7 @@ export const Home = () => {
               {/* Join online competition button */}
               <div className="py-1">
                 <a 
-                  href="https://tally.so/r/wabeXb" 
+                  href="https://goonhacks.devpost.com/?_gl=1*15jhwpq*_gcl_au*NzM4NTI1ODE0LjE3NTg1MTQ1ODc.*_ga*MTE5MTY5ODEzMi4xNzA1NzY2OTgz*_ga_0YHJK3Y10M*czE3NjI0MTI3NzQkbzE1MiRnMSR0MTc2MjQxMzcxOSRqMjgkbDAkaDA." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-6 py-2 font-bold text-base hover:bg-green-700 transition-colors"
