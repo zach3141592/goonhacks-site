@@ -447,7 +447,7 @@ export const Home = () => {
                       <AccordionContent className="text-foreground">
                         Something weird. Think about problems that are too strange, too awkward, or too niche for anyone else to tackle. Check out some{" "}
                         <a 
-                          href="https://toronto-stupid-ideas-hackathon.devpost.com/project-gallery" 
+                          href="https://stupidhackathon.com/" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="text-white hover:text-gray-300 transition-colors underline"
