@@ -445,7 +445,7 @@ export const Home = () => {
                       What should I build?
                     </AccordionTrigger>
                       <AccordionContent className="text-foreground">
-                        Something weird. Think about problems that are too strange, too awkward, or too niche for anyone else to tackle. Check out some{" "}
+                        Something weird. Check the project description on devpost. Check out some{" "}
                         <a 
                           href="https://stupidhackathon.com/" 
                           target="_blank" 
