@@ -174,7 +174,7 @@ export const Home = () => {
                     <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
                       <span className="font-bold text-lg md:text-xl">9:00 pm</span>
                       <span className="text-lg md:text-xl hidden md:inline"> → </span>
-                      <span className="text-lg">Go On Competition :)))</span>
+                      <span className="text-lg">Go On Olympics :)))</span>
                     </div>
                     <div className="flex flex-col md:flex-row md:items-center gap-x-1 gap-y-1">
                       <span className="font-bold text-lg md:text-xl">12:00 am</span>
